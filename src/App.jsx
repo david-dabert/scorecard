@@ -271,7 +271,7 @@ function Landing({ onProceed }) {
           Begin Diagnostic
         </button>
         <div style={{ marginTop: 80, fontFamily: S.mono, fontSize: 8, color: S.goldGhost, letterSpacing: 2, textTransform: "uppercase" }}>
-          PROJECT DELIVERY \u00b7 MULTI-STAKEHOLDER COORDINATION \u00b7 CROSS-CONTEXT OPERATIONS
+          PROJECT DELIVERY \ MULTI-STAKEHOLDER COORDINATION \ CROSS-CONTEXT OPERATIONS
         </div>
       </div>
     </div>
@@ -503,7 +503,7 @@ function Results({ scores, userData, onRestart }) {
               Request a personalized analysis of your diagnostic results
             </p>
             <p style={{ fontFamily: S.mono, fontSize: 11, color: "rgba(232,220,200,0.35)", lineHeight: 1.7, marginBottom: 28, maxWidth: 420, margin: "0 auto 28px" }}>
-              Az\u00e9lie will review your responses and send you a confidential briefing with specific observations and operational recommendations tailored to your project context.
+              David will review your responses and send you a confidential briefing with specific observations and operational recommendations tailored to your project context.
             </p>
             <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
               <button onClick={() => setRequestSent(true)} style={{
@@ -525,7 +525,7 @@ function Results({ scores, userData, onRestart }) {
           <div style={{ background: "rgba(196,162,101,0.06)", border: "1px solid rgba(196,162,101,0.2)", padding: 36, marginBottom: 48, textAlign: "center" }}>
             <div style={{ fontFamily: S.serif, fontSize: 20, color: S.gold, marginBottom: 12 }}>Request received.</div>
             <p style={{ fontFamily: S.serif, fontSize: 14, color: "rgba(232,220,200,0.55)", lineHeight: 1.7, maxWidth: 400, margin: "0 auto" }}>
-              {userData.firstName}, your diagnostic has been submitted for review. Az\u00e9lie will send a personalized operational briefing to <span style={{ color: S.bone }}>{userData.email}</span> within the coming days.
+              {userData.firstName}, your diagnostic has been submitted for review. David will send a personalized operational briefing to <span style={{ color: S.bone }}>{userData.email}</span> within the coming days.
             </p>
           </div>
         )}
@@ -537,16 +537,16 @@ function Results({ scores, userData, onRestart }) {
             <span style={{ fontFamily: S.serif, fontSize: 20, color: S.gold }}>A</span>
           </div>
           <div>
-            <div style={{ fontFamily: S.serif, fontSize: 18, color: S.bone, marginBottom: 6 }}>Az\u00e9lie</div>
+            <div style={{ fontFamily: S.serif, fontSize: 18, color: S.bone, marginBottom: 6 }}>David</div>
             <p style={{ fontFamily: S.serif, fontSize: 13, color: "rgba(232,220,200,0.45)", lineHeight: 1.7, marginBottom: 16, maxWidth: 420 }}>
               Senior project management across four countries, fifteen partners, and budgets exceeding 1M\u20ac. Positioning at the intersection of strategy, technology, and institutional delivery. Multilingual operations in French, English, and Spanish.
             </p>
             <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
-              <a href="https://www.linkedin.com/in/azelie" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/david-dabert" target="_blank" rel="noopener noreferrer"
                 style={{ fontFamily: S.mono, fontSize: 11, color: S.gold, textDecoration: "none", letterSpacing: 1, borderBottom: "1px solid rgba(196,162,101,0.25)", paddingBottom: 2 }}>
                 LinkedIn
               </a>
-              <a href="mailto:contact@azelie.com" target="_blank" rel="noopener noreferrer"
+              <a href="mailto:pr.dabertdavid@gmail.com" target="_blank" rel="noopener noreferrer"
                 style={{ fontFamily: S.mono, fontSize: 11, color: S.gold, textDecoration: "none", letterSpacing: 1, borderBottom: "1px solid rgba(196,162,101,0.25)", paddingBottom: 2 }}>
                 Contact
               </a>
@@ -564,7 +564,7 @@ function Results({ scores, userData, onRestart }) {
         </button>
 
         <div style={{ marginTop: 64, fontFamily: S.mono, fontSize: 8, color: S.goldGhost, letterSpacing: 2, textTransform: "uppercase" }}>
-          THE OPERATIONAL DELIVERY DIAGNOSTIC \u00b7 AZ\u00c9LIE \u00b7 FEBRUARY 2026
+          THE OPERATIONAL DELIVERY DIAGNOSTIC DAVID 2026
         </div>
       </div>
     </div>
