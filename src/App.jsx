@@ -260,7 +260,7 @@ function Landing({ onProceed }) {
           ))}
         </div>
         <p style={{ fontFamily: S.mono, fontSize: 11, color: "rgba(232,220,200,0.3)", lineHeight: 1.9, marginBottom: 24, maxWidth: 520 }}>
-          Built from eight years managing multi-partner programmes across four countries, with budgets exceeding 1M\u20ac and stakeholder networks spanning institutional, governmental, and field-level actors. This diagnostic maps your project across five operational dimensions and returns a candid assessment of where delivery holds and where it leaks.
+          Built from eight years managing multi-partner programmes across four countries, with budgets exceeding 1M€ and stakeholder networks spanning institutional, governmental, and field-level actors. This diagnostic maps your project across five operational dimensions and returns a candid assessment of where delivery holds and where it leaks.
         </p>
         <div style={{ fontFamily: S.mono, fontSize: 11, color: S.gold, lineHeight: 1.9, marginBottom: 48, maxWidth: 500 }}>
           Complete the diagnostic and receive a personalized operational profile with dimension-level analysis and the option to request a direct review.
@@ -539,7 +539,7 @@ function Results({ scores, userData, onRestart }) {
           <div>
             <div style={{ fontFamily: S.serif, fontSize: 18, color: S.bone, marginBottom: 6 }}>David</div>
             <p style={{ fontFamily: S.serif, fontSize: 13, color: "rgba(232,220,200,0.45)", lineHeight: 1.7, marginBottom: 16, maxWidth: 420 }}>
-              Senior project management across four countries, fifteen partners, and budgets exceeding 1M\u20ac. Positioning at the intersection of strategy, technology, and institutional delivery. Multilingual operations in French, English, and Spanish.
+              Senior project management across four countries, fifteen partners, and budgets exceeding 1M€. Positioning at the intersection of strategy, technology, and institutional delivery. Multilingual operations in French, English, and Spanish.
             </p>
             <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
               <a href="https://www.linkedin.com/in/david-dabert" target="_blank" rel="noopener noreferrer"
